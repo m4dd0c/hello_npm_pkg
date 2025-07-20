@@ -1,0 +1,20 @@
+{
+  "name": "hello_npm_pkg",
+  "version": "1.0.0",
+  "description": "This is a dummy npm package to see demonstrate how to build a npm package with ts + eslint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4dd0c/hello_npm_pkg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m4dd0c/hello_npm_pkg/issues"
+  },
+  "homepage": "https://github.com/m4dd0c/hello_npm_pkg#readme"
+}
