@@ -2,9 +2,11 @@
   "name": "hello_npm_pkg",
   "version": "1.0.0",
   "description": "This is a dummy npm package to see demonstrate how to build a npm package with ts + eslint.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup",  
+    "lint": "eslint 'src/**/*.{js,ts,tsx}'"
   },
   "repository": {
     "type": "git",
