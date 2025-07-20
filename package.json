@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/m4dd0c/hello_npm_pkg/issues"
   },
-  "homepage": "https://github.com/m4dd0c/hello_npm_pkg#readme"
+  "homepage": "https://github.com/m4dd0c/hello_npm_pkg#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
 }
