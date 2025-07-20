@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "This is a dummy npm package to see demonstrate how to build a npm package with ts + eslint.",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
   "scripts": {
-    "build": "tsup",  
+    "build": "tsup",
     "lint": "eslint 'src/**/*.{js,ts,tsx}'"
   },
   "repository": {
